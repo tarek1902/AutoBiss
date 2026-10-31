@@ -1,12 +1,12 @@
 #!/bin/sh
-### wget --no-check-certificate -O - https://github.com/emilnabil/download-plugins/raw/refs/heads/main/AutoBiss/AutoBiss.sh | /bin/sh
+### wget --no-check-certificate -O - https://github.com/tarek1902/raw/refs/heads/main/AutoBiss/AutoBiss.sh | /bin/sh
 
 echo " Download And Install Plugin AutoBiss "
 
 TEMPATH=/tmp
 MY_IPK="enigma2-plugin-extensions-autobiss_all.ipk"
 MY_DEB="enigma2-plugin-extensions-autobiss_all.deb"
-MY_URL="https://github.com/emilnabil/download-plugins/raw/refs/heads/main/AutoBiss"
+MY_URL="https://github.com/tarek1902/raw/refs/heads/main/AutoBiss"
 
 OS="Unknown"
 if [ -f /etc/apt/apt.conf ]; then
@@ -70,7 +70,7 @@ echo "================================="
 cd / || true
 
 echo "********************************************************************************"
-echo "   UPLOADED BY  >>>>   EMIL_NABIL "
+echo "   UPLOADED BY  >>>>   TAREK-HANFY "
 sleep 3
 echo "#                Restart Enigma2 GUI                    #"
 echo "#########################################################"
